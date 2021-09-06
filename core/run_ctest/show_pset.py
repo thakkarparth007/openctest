@@ -2,7 +2,7 @@
 import sys, json
 
 def main(argv):
-    mapping = json.load(open("../../data/ctest_mapping/opensource-zookeeper-server.json"))
+    mapping = json.load(open("../../data/ctest_mapping/opensource-hadoop-common.json"))
     count = 0
     for key, value in mapping.items():
         if argv[1] in value:
